@@ -5156,7 +5156,7 @@ id,key,value,type
 119281484,building,yes,regular
 119282095,city,District of North Vancouver,addr
 119282095,housenumber,1167,addr
-119282095,postcode,V7L1L1,addr
+119282095,postcode,V7L 1L1,addr
 119282095,province,British Columbia,addr
 119282095,street,Shavington Street,addr
 119282095,building,yes,regular
@@ -7577,7 +7577,7 @@ id,key,value,type
 224056914,building,commercial,regular
 224056914,city,Vancouver,addr
 224056914,street,Carrall Street,addr
-224056914,postcode,V6B1G6,addr
+224056914,postcode,V6B 1G6,addr
 224056914,housenumber,425,addr
 224320814,is_in,"Vancouver,British Columbia",regular
 224320814,lanes,1,regular
@@ -7760,7 +7760,7 @@ id,key,value,type
 246948729,building,yes,regular
 246948729,city,Vancouver,addr
 246948729,street,Granville Street,addr
-246948729,postcode,V6Z1M1,addr
+246948729,postcode,V6Z 1M1,addr
 246948729,housenumber,1105,addr
 249286905,bus,designated,regular
 249286905,foot,yes,regular
@@ -8361,7 +8361,7 @@ id,key,value,type
 297289090,building,house,regular
 297289090,city,Vancouver,addr
 297289090,street,Parker Street,addr
-297289090,postcode,V5L2K8,addr
+297289090,postcode,V5L 2K8,addr
 297289090,levels,3,building
 297289090,housenumber,1738,addr
 297295138,highway,steps,regular
@@ -10560,7 +10560,7 @@ id,key,value,type
 324098891,building,apartments,regular
 324098891,city,Vancouver,addr
 324098891,street,West 12th Avenue,addr
-324098891,postcode,V5Z1N2,addr
+324098891,postcode,V5Z 1N2,addr
 324098891,province,BC,addr
 324098891,levels,3,building
 324098891,housenumber,990,addr
@@ -10678,7 +10678,7 @@ id,key,value,type
 326317506,building,apartments,regular
 326317506,city,Vancouver,addr
 326317506,street,Spruce Street,addr
-326317506,postcode,V6H2R2,addr
+326317506,postcode,V6H 2R2,addr
 326317506,province,BC,addr
 326317506,levels,3,building
 326317506,housenumber,2775,addr
@@ -11179,32 +11179,32 @@ id,key,value,type
 335851411,building,house,regular
 335851411,city,Vancouver,addr
 335851411,street,West 37th Avenue,addr
-335851411,postcode,V6M1L8,addr
+335851411,postcode,V6M 1L8,addr
 335851411,province,BC,addr
 335851411,housenumber,1006,addr
 335851739,building,house,regular
 335851739,city,Vancouver,addr
 335851739,street,West 37th Avenue,addr
-335851739,postcode,V6M1M3,addr
+335851739,postcode,V6M 1M3,addr
 335851739,province,BC,addr
 335851739,housenumber,1488,addr
 336015725,building,house,regular
 336015725,city,Vancouver,addr
 336015725,street,Selkirk Street,addr
-336015725,postcode,V6M1V1,addr
+336015725,postcode,V6M 1V1,addr
 336015725,province,BC,addr
 336015725,housenumber,1191,addr
 336016334,highway,service,regular
 336016851,building,house,regular
 336016851,city,Vancouver,addr
 336016851,street,West 41st Avenue,addr
-336016851,postcode,V6M1X1,addr
+336016851,postcode,V6M 1X1,addr
 336016851,province,BC,addr
 336016851,housenumber,1191,addr
 336017815,building,house,regular
 336017815,city,Vancouver,addr
 336017815,street,Cartier Street,addr
-336017815,postcode,V6M3A5,addr
+336017815,postcode,V6M 3A5,addr
 336017815,province,BC,addr
 336017815,housenumber,5489,addr
 336022374,foot,yes,regular
@@ -11231,7 +11231,7 @@ id,key,value,type
 336600944,building,house,regular
 336600944,city,Vancouver,addr
 336600944,street,Montgomery Street,addr
-336600944,postcode,V6M2X4,addr
+336600944,postcode,V6M 2X4,addr
 336600944,province,BC,addr
 336600944,housenumber,5724,addr
 336608332,amenity,parking,regular
@@ -11494,14 +11494,14 @@ id,key,value,type
 340562029,building,house,regular
 340562029,city,Vancouver,addr
 340562029,street,West 43rd Avenue,addr
-340562029,postcode,V6M3A6,addr
+340562029,postcode,V6M 3A6,addr
 340562029,province,BC,addr
 340562029,housenumber,1429,addr
 340564697,name,Willow Gardens,regular
 340564697,building,apartments,regular
 340564697,city,Vancouver,addr
 340564697,street,Tisdall Street,addr
-340564697,postcode,V5Z2R3,addr
+340564697,postcode,V5Z 2R3,addr
 340564697,province,BC,addr
 340564697,housenumber,6187,addr
 340565494,lanes,1,regular
@@ -14622,7 +14622,7 @@ id,key,value,type
 357401650,religion,sikh,regular
 357401650,city,Vancouver,addr
 357401650,street,Ross Street,addr
-357401650,postcode,V5X4C5,addr
+357401650,postcode,V5X 4C5,addr
 357401650,province,BC,addr
 357401650,housenumber,8000,addr
 357401660,building,yes,regular
@@ -18528,7 +18528,7 @@ id,key,value,type
 358103494,building,yes,regular
 358103494,city,Vancouver,addr
 358103494,street,Charles Street,addr
-358103494,postcode,V5K3A6,addr
+358103494,postcode,V5K 3A6,addr
 358103494,province,BC,addr
 358103494,levels,3,building
 358103494,housenumber,2731,addr
@@ -21174,7 +21174,7 @@ id,key,value,type
 375953770,website,http://www.ndrs.ca/,regular
 375953770,city,Vancouver,addr
 375953770,street,Venables Street,addr
-375953770,postcode,V5K4Z6,addr
+375953770,postcode,V5K 4Z6,addr
 375953770,province,BC,addr
 375953770,housenumber,2880,addr
 375966678,building,yes,regular
@@ -24785,7 +24785,7 @@ id,key,value,type
 526675647,water,lake,regular
 526961775,city,Vancouver,addr
 526961775,housenumber,3323,addr
-526961775,postcode,V5R4Y3,addr
+526961775,postcode,V5R 4Y3,addr
 526961775,province,BC,addr
 526961775,street,Wellington Avenue,addr
 526961775,building,school,regular

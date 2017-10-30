@@ -264,7 +264,7 @@ id,key,value,type
 638771016,name,Holiday Inn and Suites Downtown,regular
 638771016,tourism,hotel,regular
 638771016,street,Howe Street,addr
-638771016,postcode,V6Z1R2,addr
+638771016,postcode,V6Z 1R2,addr
 638771016,housenumber,1110,addr
 638861823,name,Prego Cofee,regular
 638861823,amenity,cafe,regular
@@ -1040,15 +1040,15 @@ id,key,value,type
 1564470168,highway,turning_circle,regular
 1568050809,city,North Vancouver,addr
 1568050809,street,Whitchurch St,addr
-1568050809,postcode,V7L2A4,addr
+1568050809,postcode,V7L 2A4,addr
 1568050809,housenumber,814,addr
 1568050838,city,North Vancouver,addr
 1568050838,housenumber,838,addr
-1568050838,postcode,V7L2A4,addr
+1568050838,postcode,V7L 2A4,addr
 1568050838,street,Whitchurch St,addr
 1568050871,city,North Vancouver,addr
 1568050871,street,Whitchurch St,addr
-1568050871,postcode,V7L2A4,addr
+1568050871,postcode,V7L 2A4,addr
 1568050871,housenumber,882,addr
 1589607588,name,Starbucks,regular
 1589607588,amenity,cafe,regular
@@ -1541,7 +1541,7 @@ id,key,value,type
 2807280509,healthcare,chiropractor,regular
 2807280509,wheelchair,yes,regular
 2807280509,street,Kingsway,addr
-2807280509,postcode,V5R5M2,addr
+2807280509,postcode,V5R 5M2,addr
 2807280509,opening_hours,"opening_hours=Tu 14:00-21:00, We 10:00-15:00, Th 14:00-21:00, Fr 10:00-15:00, Sa-Su 12:00-17:00, Mo off",regular
 2807280509,bitcoin,yes,payment
 2807280509,housenumber,3632,addr
@@ -3351,7 +3351,7 @@ id,key,value,type
 4449942991,en,Kenmore Travel,name
 4449942991,website,http://www.kenmoretravel.com,regular
 4449942991,street,West 41st Avenue,addr
-4449942991,postcode,V6M2A7,addr
+4449942991,postcode,V6M 2A7,addr
 4449942991,opening_hours,Mo-Fr 09:00-18:00; Sa 10:00-15:00,regular
 4449942991,housenumber,2492,addr
 4451129543,amenity,parking_entrance,regular
@@ -3970,7 +3970,7 @@ id,key,value,type
 5008424251,amenity,bench,regular
 5008458049,city,Vancouver,addr
 5008458049,housenumber,306,addr
-5008458049,postcode,V6B2K9,addr
+5008458049,postcode,V6B 2K9,addr
 5008458049,province,BC,addr
 5008458049,street,Abbott Street,addr
 5008458049,description,Independant Film and Visual Effects School,regular
@@ -4034,7 +4034,7 @@ id,key,value,type
 5039162825,phone,604-559-6911,regular
 5039162825,website,www.oakandfort.ca,regular
 5040169826,housenumber,2993,addr
-5040169826,postcode,V6H3J6,addr
+5040169826,postcode,V6H 3J6,addr
 5040169826,street,Granville Street,addr
 5040169826,amenity,restaurant,regular
 5040169826,cuisine,japanese;korean;asian,regular
@@ -4203,7 +4203,7 @@ id,key,value,type
 5133538523,amenity,waste_basket,regular
 5133654221,amenity,bicycle_parking,regular
 5135566285,housenumber,243,addr
-5135566285,postcode,V5Y1P5,addr
+5135566285,postcode,V5Y 1P5,addr
 5135566285,street,West Broadway,addr
 5135566285,amenity,cafe,regular
 5135566285,internet_access,wlan,regular
