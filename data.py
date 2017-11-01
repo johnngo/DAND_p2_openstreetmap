@@ -41,23 +41,23 @@ def shape_element(element, node_attr_fields=NODE_FIELDS, way_attr_fields=WAY_FIE
     way_nodes = []
     tags = []  # Handle secondary tags the same way for both node and way elements
     count=0
-    
+
     # YOUR CODE HERE
     if element.tag == 'node':
         # id = element.attrib['id']
         for item in node_attr_fields:
             node_attribs[item] = element.attrib[item]
         # code for 'node' element (the parent)
-        
+
     if element.tag == 'way':
         for item in way_attr_fields:
             way_attribs[item] = element.attrib[item]
         # code for 'way' element (the parent)
-        
+
     for child in element:
         id = element.attrib['id']
         # code for child elements
-        
+
         if child.tag == 'tag':
             if problem_chars.match(child.attrib['k']):
                     continue
@@ -65,6 +65,21 @@ def shape_element(element, node_attr_fields=NODE_FIELDS, way_attr_fields=WAY_FIE
                 fields={}
                 fields['id'] =id
                 fields['value'] = child.attrib['v']
+
+                if child.attrib["k"] == 'addr:street':
+                        # calling the update_name function
+                        fields["value"] = update_name(child.attrib["v"], mapping)
+                    # otherwise:
+                else:
+                        fields["value"] = child.attrib["v"]
+
+                if child.attrib["k"] == 'addr:postcode':
+                        # call the update_postal_code function
+                        fields["value"] = update_postal_code(child.attrib['v'])
+                else:
+                        fields['value'] = child.attrib['v']
+
+
                 if ':' in child.attrib['k']:
                     loc = child.attrib['k'].find(':')
                     key = child.attrib['k']
@@ -75,7 +90,7 @@ def shape_element(element, node_attr_fields=NODE_FIELDS, way_attr_fields=WAY_FIE
                     fields['type']= 'regular'
                 tags.append(fields)
             # code for tag children
-            
+
         if child.tag == 'nd':
             nds={}
             nds['id']=id
@@ -84,7 +99,7 @@ def shape_element(element, node_attr_fields=NODE_FIELDS, way_attr_fields=WAY_FIE
             count+=1
             way_nodes.append(nds)
             # code for 'nd' children
-    
+
     if element.tag == 'node':
         return {'node':node_attribs, 'node_tags': tags}
     if element.tag == 'way':
@@ -109,7 +124,7 @@ def validate_element(element, validator, schema=SCHEMA):
         field, errors = next(validator.errors.iteritems())
         message_string = "\nElement of type '{0}' has the following errors:\n{1}"
         error_string = pprint.pformat(errors)
-        
+
         raise Exception(message_string.format(field, error_string))
 
 
@@ -171,4 +186,3 @@ if __name__ == '__main__':
     # Note: Validation is ~ 10X slower. For the project consider using a small
     # sample of the map when validating.
     process_map(OSM_PATH, validate=True)
-    
