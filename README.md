@@ -12,4 +12,4 @@ The goal of the project was to demonstrate the student's ability to:
   * Learn how to store, query and aggregate data using mongoDB or SQL
 
 
-The OSM data chosen for this project is an extracted may of the city of Vancouver, BC, Canada.
+The OSM data chosen for this project is an extracted map of the city of Vancouver, BC, Canada.
